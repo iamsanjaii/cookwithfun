@@ -1,0 +1,41 @@
+const recipes = {
+    "Coffee": {
+      "ingredients": ["Coffee", "Sugar", "Milk", "Water"],
+      "instructions": "To make a simple cup of coffee, start by boiling water. In a mug, add a teaspoon of your favorite coffee powder. Pour the hot water into the mug, stirring well to dissolve the coffee. Add sugar and milk to taste, if desired. Allow the flavors to blend for a minute or two before enjoying your freshly brewed coffee. Adjust sweetness and creaminess according to your preference."
+    },
+    "Maggie": {
+      "ingredients": ["Maggie", "Water"],
+      "instructions": "To make plain Maggi noodles, start by bringing 1 1/2 cups of water to a boil in a medium-sized pan. Once the water is boiling, add the Maggi noodles along with the tastemaker (seasoning) that comes with the pack. Stir occasionally and cook the noodles for 2-3 minutes until they are soft and the water is mostly absorbed. Once the noodles are cooked, turn off the heat and serve hot. Enjoy your plain and delicious Maggi noodles!"
+    },
+    "WaterMelon Juice":{
+        "ingredients":["Water Melon", "Sugar", "Ice Cubes","Water"],
+        "instructions": "To make refreshing watermelon juice, start by cutting a seedless watermelon into small cubes, totaling about 4 cups. If desired, add a tablespoon of freshly squeezed lemon juice for a tangy twist. Place the watermelon cubes into a blender and blend until smooth. For a smoother consistency, strain the juice through a fine mesh sieve or cheesecloth. Serve the juice over ice cubes for a cool refreshment. Garnish with a slice of watermelon or a sprig of mint for an added touch. This hydrating and naturally sweet beverage is perfect for hot summer days or anytime you need a refreshing drink. Enjoy the vibrant flavor of freshly made watermelon juice!"
+    },
+    "Lemon Juice":{
+        "ingredients":["Lemon", "Sugar", "Ice Cubes","Water"],
+        "instructions": "To prepare delicious lemon juice, start by juicing 2-3 large lemons, yielding approximately 1/2 cup of fresh lemon juice. Roll the lemons on a countertop to soften them before cutting and juicing to extract as much juice as possible. In a pitcher, combine the freshly squeezed lemon juice with 2 cups of cold water. If you prefer a sweeter taste, stir in sugar or honey to your liking, ensuring it dissolves completely. Chill the lemonade in the refrigerator for at least 30 minutes to enhance its refreshing qualities. When ready to serve, pour the chilled lemon juice into glasses filled with ice cubes for extra chill. Optionally, garnish each glass with a slice of lemon or a sprig of mint for added visual appeal. Enjoy this revitalizing and tangy homemade lemon juice on a hot day or whenever you crave a refreshing beverage."
+    },
+    "Apple Juice":{
+        "ingredients":["Apple", "Sugar", "Ice Cubes","Water"],
+        "instructions": "To prepare fresh apple juice, start by selecting 4-6 ripe apples, washing them thoroughly to remove any dirt or pesticides. Peel the apples if desired, and then core and chop them into smaller pieces. Using a juicer, extract the juice directly from the apple pieces. If using a blender, blend the apple pieces until smooth, then strain the mixture through a fine mesh strainer or cheesecloth to remove the pulp. Optionally, add a bit of water to thin the juice, sweetener to taste (such as sugar or honey), and a splash of lemon juice to preserve the color and add freshness. Pour the juice into a pitcher or container, chill it in the refrigerator, and serve cold."
+    },
+    "Fruit  Salad":{
+        "ingredients":["Apple", "Banana", "Orange","Grapes", "Sugar"],
+        "instructions": "To make a fruit salad with apples, oranges, grapes, and bananas, start by washing all the fruits thoroughly. Peel and core 2 apples, then chop them into bite-sized pieces. Peel 2 oranges, separate them into segments, and cut the segments into smaller pieces if desired. Halve or quarter 1 cup of grapes, depending on their size. Peel and slice 2 bananas. In a large bowl, combine all the chopped fruits. Drizzle 1 tablespoon of lemon juice over the mixture to prevent the fruits from browning, and optionally add 1-2 tablespoons of honey for extra sweetness. Gently toss everything together until well mixed. Garnish with fresh mint leaves if desired, and serve immediately or chill in the refrigerator before serving."
+    },
+    "Lassie":{
+        "ingredients":["Yoghurt", "Milk", "Sugar"],
+        "instructions": "To make sweet lassi, combine 2 cups of plain yogurt, 1/2 cup of cold water or milk, 4 tablespoons of sugar (adjust to taste), and a pinch of cardamom powder in a blender. Blend the mixture until it is smooth and frothy. Pour the lassi into glasses and, if desired, garnish with a few saffron strands or a sprinkle of chopped pistachios or almonds. Serve chilled for a refreshing drink."
+    },
+    "Carrot Juice":{
+      "ingredients":["Carrot", "Water", "Sugar", "Ice Cubes"],
+      "instructions": "To prepare fresh carrot juice, start by washing and peeling 4-6 large carrots. Chop them into smaller pieces that will fit into your juicer or blender. If using a juicer, simply feed the carrot pieces through the juicer to extract the juice. If using a blender, blend the carrots until smooth, adding a little water if needed to help blend. Strain the blended mixture through a fine mesh strainer or cheesecloth to remove the pulp, pressing down to extract as much juice as possible. Optionally, you can add a splash of lemon juice or a small piece of ginger for extra flavor. Pour the juice into a glass, chill if desired, and serve immediately."
+  },
+  "Spicy Egg Gravy":{
+    "ingredients":["Egg", "Water", "Spices"],
+    "instructions": "To make spicy egg gravy, start by boiling 4-6 eggs until they are hard-boiled, then peel and set them aside. In a pan, heat 2 tablespoons of oil and add 1 teaspoon of cumin seeds and 1 finely chopped onion. Sauté until the onion turns golden brown. Add 1 tablespoon of ginger-garlic paste and cook for another minute. Then, add 2 chopped tomatoes and cook until they become soft and mushy. Add spices: 1 teaspoon of turmeric powder, 1 teaspoon of red chili powder, 1 teaspoon of coriander powder, and 1/2 teaspoon of garam masala. Mix well and cook for a few minutes until the oil separates from the masala. Add 1 cup of water and bring it to a boil. Cut the boiled eggs in half and gently place them into the gravy. Simmer for 5-10 minutes, allowing the eggs to absorb the flavors. Garnish with fresh coriander leaves and serve hot with rice or roti."
+},
+  
+  };
+
+  

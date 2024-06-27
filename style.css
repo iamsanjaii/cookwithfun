@@ -1,0 +1,148 @@
+/* black color = #0B0C10 */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+body {
+  background-color: #0b0c10;
+  cursor: pointer;
+}
+
+.navbar {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu h2 {
+  color: #66fcf1;
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+.type-text {
+  color: #66fcf1;
+}
+
+.type-text h2 {
+  margin-left: 20px;
+  font-weight: 400;
+  color: #fff;
+  font-size: 40px;
+}
+
+.type-text span {
+  color: #66fcf1;
+}
+.parent {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+.recipe {
+  border: 3px solid #66fcf1;
+  margin: 20px;
+  width: 100%;
+  max-width: 400px;
+  height: 50vh;
+  border-radius: 8px;
+  padding: 14px;
+  overflow: scroll;
+}
+.recipe h2 {
+  color: #fff;
+  font-weight: 400;
+}
+.recipe p {
+  margin-top: 10px;
+  color: #66fcf1;
+}
+
+.container {
+  border: 3px solid #66fcf1;
+  height: 50vh; /* Keeps the height relative to the viewport height */
+  width: 60%;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 20px;
+  color: #66fcf1;
+  display: block;
+  overflow: scroll;
+  /* Enable vertical scrolling */
+}
+
+.recipe ::-webkit-scrollbar {
+  display: none;
+}
+.container ::-webkit-scrollbar {
+  display: none;
+}
+.container {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.recipe {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.container h2 {
+  margin-left: 10px;
+  font-weight: 400;
+}
+.child {
+  display: flex;
+  justify-content: space-between;
+}
+.child a {
+  margin: 10px;
+  text-decoration: none;
+  background-color: #66fcf1;
+  color: #000;
+  border-radius: 6px;
+  padding: 10px;
+}
+.content {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .content .square {
+    margin: 2px;
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.content .square {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px; /* Full width for each item */
+  border: 3px solid #66fcf1;
+  border-radius: 8px;
+  color: #66fcf1; /* Text color inside the square */
+}
